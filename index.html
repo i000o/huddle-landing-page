@@ -5,18 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="/sass/output.css">
+  <link rel="stylesheet" href="sass/output.css"> <!-- it must be stylesheet not styles, Idky-->
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
 </head>
 <body>
   <header> 
-    <img src="/images/logo.svg" alt="huddle logo">
+    <img class="logo" src="images/logo.svg" alt="huddle logo">
   </header>
 
   <main> 
-    <section class="image">
-      <picture> 
+    <section>
+      <img class="img" src="images/illustration-mockups.svg" alt="illustration"> 
     </section>
 
     <section class="text">
@@ -25,7 +24,9 @@
         Create connections with your users as you engage in genuine discussion. </h2>
     </section>
 
-    <button>Register</button>
+    <button class="btn">Register</button>
+
+    <!-- add socials icons -->
   </main>
 
   <footer>

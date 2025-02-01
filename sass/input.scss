@@ -1,0 +1,88 @@
+@use 'reset';
+@use 'footer';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@mixin flex { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@mixin background { 
+    // background-image: url(../images/bg-mobile.svg);
+    // background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    background-size: 100%;
+}
+
+body, header, footer { 
+    margin: 20px 30px;
+}
+
+body { 
+    font-family: 'open sans', sans-serif; 
+    @include flex;
+    @include background;
+    color: #FFFFFF;
+}
+
+// body::before { 
+//     transform: rotateY(180deg);
+//     position: fixed;
+// }
+
+// HEADER 
+
+header { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    width: 100%;
+
+    .logo { 
+        width: 30%;
+        margin: 20px 30px;
+
+    }
+}
+
+// MAIN 
+
+main {
+
+    section { 
+        margin: 50px 0;
+
+
+        .img {
+            width: 90%;
+        }
+    }
+
+    .text { 
+        h1 { 
+            font-family: 'poppins', sans-serif;
+            font-weight: 600;
+            font-size: 2.5em;
+            margin: 20px 100px;
+            line-height: 160%;
+        }
+
+        h2 { 
+            font-weight: 400; 
+            font-family: 'open sans', sans-serif;
+            margin: 20px 100px;
+            line-height: 160%;
+        }
+    }
+
+    .btn { 
+        font-size: 1.3em;
+        font-weight: 400; 
+        padding: 20px 130px;
+        border-radius: 30px;
+        color: hsl(257, 40%, 49%);
+        margin: 15px 0 60px 0;
+    }
+}
