@@ -35,7 +35,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 ## My process
 
 :alien: Icons - classes?
-:alien:
+:alien: I think I'm using nesting too much, without purpose. I'm using it all the time when I think I should be using it in instances where it calls for it.
 :alien:
 :alien:
 :alien:

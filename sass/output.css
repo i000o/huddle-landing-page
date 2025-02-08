@@ -52,26 +52,27 @@ header .logo {
   margin: 20px 30px;
 }
 
-main section {
+main .illustration {
   margin: 50px 0;
 }
-main section .img {
+main .illustration .img {
   width: 90%;
 }
-main .text h1 {
+main .title {
   font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 2.5em;
   margin: 20px 100px;
   line-height: 160%;
 }
-main .text h2 {
+main .subheading {
   font-weight: 400;
   font-family: "open sans", sans-serif;
   margin: 20px 100px;
   line-height: 160%;
 }
-main .btn {
+
+.btn {
   font-size: 1.3em;
   font-weight: 400;
   padding: 20px 130px;
@@ -81,31 +82,67 @@ main .btn {
   font-family: "open sans", sans-serif;
   box-shadow: 0px 10px 9px 0px #563e93;
 }
-main .btn:active {
+
+.btn:active {
   background-color: hsl(300, 69%, 71%);
   color: #FFFFFF;
   cursor: pointer;
   border: solid hsl(300, 69%, 71%);
   transition: 0.03s;
 }
-main .socials {
+
+.socials {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2em;
 }
-main .socials a {
+.socials a {
   border-radius: 50%;
   width: 50px;
   border: solid white;
   padding: 10px;
   margin: 10px;
 }
-main .socials a:active {
+.socials a:active {
   cursor: pointer;
   border: solid hsl(300, 69%, 71%);
   color: hsl(300, 69%, 71%);
   transition: 0.03s;
+}
+
+@media screen and (min-width: 1024px) {
+  body, header, footer {
+    margin: 30px 60px;
+  }
+  body {
+    background: hsl(257, 40%, 49%);
+  }
+  header {
+    width: 100%;
+  }
+  header .logo {
+    width: 20%;
+    margin: 20px 0px;
+  }
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+  }
+  .illustration {
+    width: 60%;
+    margin: 0 0;
+  }
+  .text {
+    width: 40%;
+  }
+  .title {
+    font-size: 2em;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
