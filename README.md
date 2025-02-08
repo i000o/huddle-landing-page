@@ -34,22 +34,26 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## My process
 
+:alien: Icons - classes?
 :alien:
 :alien:
 :alien:
 :alien:
-:alien:
+
+## Questions
+
+- Why do Font Awesome icons have spaces in the class names?
 
 ## Time taken
 
+:alarm_clock: Mobile: 2 hrs
 :alarm_clock: Desktop:
-:alarm_clock: Mobile:
 
 ## Feedback
 
 ## Lessons
 
-1.
+1. First time using `transition` property - Love a fade
 2.
 3.
 4.
@@ -63,5 +67,6 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## Useful resources
 
-[]()
+[How TO - Social Media Buttons](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)
+
 # huddle-landing-page
