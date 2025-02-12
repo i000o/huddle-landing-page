@@ -60,14 +60,15 @@ header {
   width: 90%;
 }
 
-main .title {
+.title {
   font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 2.5em;
   margin: 20px 100px;
   line-height: 160%;
 }
-main .subheading {
+
+.subheading {
   font-weight: 400;
   font-family: "open sans", sans-serif;
   margin: 20px 100px;
@@ -93,20 +94,20 @@ main .subheading {
   transition: 0.03s;
 }
 
-.socials {
+.wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2em;
 }
-.socials a {
+.wrapper a {
   border-radius: 50%;
   width: 50px;
   border: solid white;
   padding: 10px;
   margin: 10px;
 }
-.socials a:active {
+.wrapper a:active {
   cursor: pointer;
   border: solid hsl(300, 69%, 71%);
   color: hsl(300, 69%, 71%);
@@ -123,7 +124,7 @@ main .subheading {
   header {
     width: 100%;
   }
-  header .logo {
+  .logo {
     width: 20%;
     margin: 20px 0px;
   }
