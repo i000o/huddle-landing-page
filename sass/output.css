@@ -47,17 +47,19 @@ header {
   align-items: center;
   width: 100%;
 }
-header .logo {
+
+.logo {
   width: 30%;
   margin: 20px 30px;
 }
 
-main .illustration {
+.illustration {
   margin: 50px 0;
 }
-main .illustration .img {
+.illustration .img {
   width: 90%;
 }
+
 main .title {
   font-family: "poppins", sans-serif;
   font-weight: 600;
