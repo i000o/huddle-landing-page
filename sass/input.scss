@@ -115,6 +115,7 @@ header {
             border: solid white;
             padding: 10px; // space between icon and border 
             margin: 10px; // space between icons 
+            text-align: center;
         }
 
         a:active { 
@@ -133,7 +134,11 @@ header {
     }
 
     body { 
-        background: hsl(257, 40%, 49%); // update 
+        // background: hsl(257, 40%, 49%); // update 
+        background-image: url(../images/bg-desktop.svg);
+        background-size: 100%;
+        background-position: -65px 0px;
+
     }
 
     header { 
@@ -185,15 +190,22 @@ header {
     }
 
     .wrapper { 
+            // .fa fa-instagram { I can't refer to this class because of the space but if I remove the space in the HTML, it no longer refers to the linked icon library correctly - What are you supposed to do here if you wanted to refer to the class? (Other than what I've done below). 
         font-size: 1.5em;
+        justify-content: flex-end;
+        height: 400px;
+
+        :nth-child(2) { // instagram
+            order: 3;
+        }
+
+        a { 
+            border: solid white 1px;
+            width: 45px;
+        }
+
+        a:active { 
+            border: solid hsl(300, 69%, 71%) 1px;
+        }
     }
-
-    
-
-    // .instagram { 
-    //     order: 3;
-    // }
-
-
-    // icons are warped
-} 
+}

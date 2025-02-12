@@ -107,6 +107,7 @@ header {
   border: solid white;
   padding: 10px;
   margin: 10px;
+  text-align: center;
 }
 .wrapper a:active {
   cursor: pointer;
@@ -120,7 +121,9 @@ header {
     margin: 30px 60px;
   }
   body {
-    background: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: 100%;
+    background-position: -65px 0px;
   }
   header {
     width: 100%;
@@ -167,5 +170,17 @@ header {
   }
   .wrapper {
     font-size: 1.5em;
+    justify-content: flex-end;
+    height: 400px;
+  }
+  .wrapper :nth-child(2) {
+    order: 3;
+  }
+  .wrapper a {
+    border: solid white 1px;
+    width: 45px;
+  }
+  .wrapper a:active {
+    border: solid hsl(300, 69%, 71%) 1px;
   }
 }/*# sourceMappingURL=input.css.map */
