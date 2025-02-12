@@ -34,15 +34,14 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## My process
 
-:alien: Icons - classes?
 :alien: I think I'm using nesting too much, without purpose. I'm using it all the time when I think I should be using it in instances where it calls for it.
 :alien: Made a new branch for 'nesting' to test if I can improve this code - Comparing it often with the `output.css` to see how it presents as pure CSS to help my understanding of Sass' nesting feature.
-:alien:
+:alien: I changed the FA icon classes to better ones
 :alien:
 
 ## Questions
 
-- Why do Font Awesome icons have spaces in the class names? Do I need to use them in this format or can I change? But it refers to the library of icons so I don't think I can...
+- Difference between `git checkout` and `git switch` commands - Is there one?
 
 ## Time taken
 
@@ -60,6 +59,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 5. I learnt how to make a new branch, switch to it, and issue pull requests! I did it from the command line using - `git branch nesting`, then `git checkout nesting` which switched to the branch, then `git add sass` to add my changed Sass folder, then `git commit -m "new branch test"`, then `git push origin nesting`! Although I don't know what `origin` means in this context.
 6. Finally learnt how the correct way to use `.wrapper` is - I didn't have a clear understanding of what this word referred to before.
 7. First time using Font Awesome icons - I don't know if I like it? Is there a better alternative?
+8. `git switch` and `git checkout` seem to be/do the same thing?
 
 ## Take forward
 
@@ -74,5 +74,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 [Git – Head](https://www.geeksforgeeks.org/git-head/)
 [Git vs. SVN: Which version control system is right for you?](https://nulab.com/learn/software-development/git-vs-svn-version-control-system/#:~:text=SVN%20workflow&text=It%20only%20includes%20tested%2C%20unbroken,and%20development%20in%20the%20branch.)
 [Wrapper in CSS](https://www.geeksforgeeks.org/wrapper-in-css/)
+[About branches - GitHub Documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
+[Git Checkout](https://www.atlassian.com/git/tutorials/using-branches/git-checkout#:~:text=The%20git%20checkout%20command%20lets,new%20commits%20on%20that%20branch.)
+[Creating a Git Pull Request Using the Command Line: A Detailed Guide](https://medium.com/@ravipatel.it/creating-a-git-pull-request-using-the-command-line-a-detailed-guide-4ef1ea017fe2)
 
 # huddle-landing-page

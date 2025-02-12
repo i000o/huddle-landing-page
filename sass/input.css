@@ -84,6 +84,7 @@ header {
   margin: 15px 0 60px 0;
   font-family: "open sans", sans-serif;
   box-shadow: 0px 10px 9px 0px #563e93;
+  background-color: #FFFFFF;
 }
 
 .btn:active {
@@ -125,8 +126,8 @@ header {
     width: 100%;
   }
   .logo {
-    width: 20%;
-    margin: 20px 0px;
+    width: 15%;
+    margin: 10px 0px;
   }
   main {
     width: 100%;
@@ -138,12 +139,33 @@ header {
   }
   .illustration {
     width: 60%;
-    margin: 0 0;
+    align-self: flex-start;
   }
   .text {
     width: 40%;
   }
+  .text, .illustration {
+    height: 80vh;
+  }
   .title {
-    font-size: 2em;
+    font-size: 2.2em;
+    font-weight: 500;
+    margin: 90px 70px 20px -20px;
+  }
+  .subheading {
+    opacity: 80%;
+    font-size: 1em;
+    margin: 20px 90px 20px -20px;
+  }
+  .btn {
+    font-size: 1.1em;
+    padding: 15px 60px;
+    border-radius: 60px;
+    color: hsl(257, 40%, 49%);
+    margin: 10px 0 50px -20px;
+    border: solid #FFFFFF;
+  }
+  .wrapper {
+    font-size: 1.5em;
   }
 }/*# sourceMappingURL=input.css.map */
