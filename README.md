@@ -41,7 +41,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## Questions
 
-- Difference between `git checkout` and `git switch` commands - Is there one?
+- How do I make the bg-img cover the space on scroll?
 
 ## Time taken
 
@@ -60,6 +60,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 6. Finally learnt how the correct way to use `.wrapper` is - I didn't have a clear understanding of what this word referred to before.
 7. First time using Font Awesome icons - I don't know if I like it? Is there a better alternative?
 8. `git switch` and `git checkout` seem to be/do the same thing?
+9. I merged changes for the first time using `git add .`, `git commit`, `git checkout main`, `git merge <nesting>` and then `git push`. I'm not fully clear on what `git fetch` and `git pull` does in this context but I'm learning.
 
 ## Take forward
 
