@@ -31,7 +31,7 @@ My focus here is to use the confidence I've built designing simpler pages to tac
 ## Built with
 
 :gear: Semantic HTML5 markup  
-:gear: CSS Flex
+:gear: CSS Flex  
 :gear: Mobile-first workflow  
 :gear: Sass
 
@@ -47,11 +47,11 @@ To do this, I took the opportunity to deepen my understanding of Git.
 
 ## Questions
 
-- How do I make the bg-img cover the space on scroll?
+:grey_question: How do I make the bg-img cover the space on scroll?
 
 ## Time taken
 
-:alarm_clock: Mobile: 2 hrs
+:alarm_clock: Mobile: 2 hrs  
 :alarm_clock: Desktop: 3 hrs
 
 ## Lessons
@@ -74,12 +74,12 @@ To do this, I took the opportunity to deepen my understanding of Git.
 
 ## Useful resources
 
-[How TO - Social Media Buttons](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)
-[Git – Head](https://www.geeksforgeeks.org/git-head/)
-[Git vs. SVN: Which version control system is right for you?](https://nulab.com/learn/software-development/git-vs-svn-version-control-system/#:~:text=SVN%20workflow&text=It%20only%20includes%20tested%2C%20unbroken,and%20development%20in%20the%20branch.)
-[Wrapper in CSS](https://www.geeksforgeeks.org/wrapper-in-css/)
-[About branches - GitHub Documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
-[Git Checkout](https://www.atlassian.com/git/tutorials/using-branches/git-checkout#:~:text=The%20git%20checkout%20command%20lets,new%20commits%20on%20that%20branch.)
+[How TO - Social Media Buttons](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)  
+[Git – Head](https://www.geeksforgeeks.org/git-head/)  
+[Git vs. SVN: Which version control system is right for you?](https://nulab.com/learn/software-development/git-vs-svn-version-control-system/#:~:text=SVN%20workflow&text=It%20only%20includes%20tested%2C%20unbroken,and%20development%20in%20the%20branch.)  
+[Wrapper in CSS](https://www.geeksforgeeks.org/wrapper-in-css/)  
+[About branches - GitHub Documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)  
+[Git Checkout](https://www.atlassian.com/git/tutorials/using-branches/git-checkout#:~:text=The%20git%20checkout%20command%20lets,new%20commits%20on%20that%20branch.)  
 [Creating a Git Pull Request Using the Command Line: A Detailed Guide](https://medium.com/@ravipatel.it/creating-a-git-pull-request-using-the-command-line-a-detailed-guide-4ef1ea017fe2)
 
 # huddle-landing-page
